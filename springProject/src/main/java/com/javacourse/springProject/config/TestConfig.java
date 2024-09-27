@@ -16,6 +16,7 @@ import com.javacourse.springProject.repositories.UserRepository;
 import com.javacourse.springProject.entities.Category;
 import com.javacourse.springProject.entities.Order;
 import com.javacourse.springProject.entities.OrderItem;
+import com.javacourse.springProject.entities.Payment;
 import com.javacourse.springProject.entities.Product;
 import com.javacourse.springProject.entities.User;
 import com.javacourse.springProject.entities.enums.OrderStatus;
@@ -38,6 +39,7 @@ public class TestConfig implements CommandLineRunner {
 
     @Autowired
     private OrderItemRepository orderItemRepository;
+    
     @Override
     public void run(String... args) throws Exception {
 
@@ -81,6 +83,12 @@ public class TestConfig implements CommandLineRunner {
         orderItemRepository.saveAll(Arrays.asList(oi1,oi2,oi3,oi4));
 
         System.out.println("Users saved successfully!");
+
+        Payment pay1 = new Payment(null,Instant.parse("2019-06-20T21:53:07Z"),o1);
+        o1.setPayment(pay1);
+
+        orderRepository.save(o1);
+
 
     }
 
