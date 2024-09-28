@@ -43,7 +43,7 @@ O projeto visa oferecer uma abordagem prática e eficiente para explorar as func
   
 ## 🎓 Agradecimentos
 </div>
-Este projeto foi desenvolvido com o auxílio de um curso de Java que estou realizando. Através desse curso, pude aprofundar meus conhecimentos e aplicar conceitos fundamentais do Spring Boot, JPA e outros tópicos relevantes, sendo essencial para o desenvolvimento deste projeto. Sou grato pela oportunidade de aprender e aprimorar minhas habilidades na criação de aplicações robustas e eficientes.
+Este projeto foi desenvolvido com o auxílio de um curso de Java que realizei. Através desse curso, pude aprofundar meus conhecimentos e aplicar conceitos fundamentais do Spring Boot, JPA e outros tópicos relevantes, sendo essencial para o desenvolvimento deste projeto.
 
 <div align="center">
   
