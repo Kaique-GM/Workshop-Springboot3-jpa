@@ -19,8 +19,8 @@ O projeto visa oferecer uma abordagem prática e eficiente para explorar as func
 </div>
 <div align="center">
   
-![Java](https://img.shields.io/badge/Java-%23F7DF1E?style=for-the-badge&logo=java&logoColor=white) 
-![Spring Boot](https://img.shields.io/badge/Spring%20Boot-6DB33F?style=for-the-badge&logo=springboot&logoColor=white) 
+![Java](https://img.shields.io/badge/Java-ED8B00?style=for-the-badge&logo=openjdk&logoColor=white) 
+![Spring Boot](https://img.shields.io/badge/Spring-6DB33F?style=for-the-badge&logo=spring&logoColor=white) 
 ![Apache Tomcat](https://img.shields.io/badge/Apache%20Tomcat-F8DC75?style=for-the-badge&logo=apache-tomcat&logoColor=black) 
 ![Maven](https://img.shields.io/badge/Maven-C71A36?style=for-the-badge&logo=apache-maven&logoColor=white) 
 ![H2 Database](https://img.shields.io/badge/H2-003545?style=for-the-badge&logo=h2&logoColor=white) 
@@ -32,6 +32,7 @@ O projeto visa oferecer uma abordagem prática e eficiente para explorar as func
   
 ## 📚 Funcionalidades
 </div>
+
 - Modelo de domínio: Estruturação do modelo de dados.
 - Camadas lógicas: Organização do código em camadas resource, service, e repository, separando responsabilidades.
 - Banco de dados H2: Integração com banco de dados em memória, facilitando testes e desenvolvimento local.
